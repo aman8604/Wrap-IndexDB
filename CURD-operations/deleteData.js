@@ -7,9 +7,6 @@ function deleteData(db, storePassed, key) {
         let transcation = db.transaction([storePassed], "readwrite");
         let store = transcation.objectStore(storePassed);
         let deleteRequest = store.delete(key);
-        deleteRequest.onsuccess = function (event) {
-            console.log("Delete : ", event);
-        }
         deleteRequest.onerror = function (event) {
             reject({
                 status: false,
