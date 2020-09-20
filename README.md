@@ -1,0 +1,1 @@
+This is a package which Provides promise based functions for the native IndexDB API
