@@ -1,0 +1,24 @@
+{
+  "name": "wrap-indexdb",
+  "version": "1.0.0",
+  "description": "\"This Package Provide promise based function to handle native IndexDB API\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aman8604/Wrap-IndexDB.git"
+  },
+  "keywords": [
+    "IndexDb",
+    "promise based indexdb",
+    "indexdb promises"
+  ],
+  "author": "\"Aman Jain\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aman8604/Wrap-IndexDB/issues"
+  },
+  "homepage": "https://github.com/aman8604/Wrap-IndexDB#readme"
+}
